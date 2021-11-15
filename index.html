@@ -12,9 +12,24 @@
 
 <aside>
   <div id="options">
-    <input type="text" placeholder="Book Title" id="book"></input>
-    <input type="text" placeholder="Author's Name" id="author"></input>
-    <button onclick="submit()">Submit</button>
+    <div id="step1">
+      <b>Step 1: Topic</b><br>
+      <button onclick="theme()">Theme</button>
+      <button onclick="plot()">Plot</button>
+    </div>
+    <br>
+    <div id="step2">
+      <b>Step 2: Format</b><br>
+      <button onclick="article()">Article</button>
+      <button onclick="book()">Book</button>
+    </div>
+    <br>
+    <div id="step3">
+      <b>Step 3: Information</b><br>
+      <input type="text" placeholder="Book Title" id="book"></input>
+      <input type="text" placeholder="Author's Name" id="author"></input>
+      <button onclick="submit()">Submit</button>
+   </div>
   </div>
 
   <br>
