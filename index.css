@@ -1,7 +1,7 @@
 /* Formatting */
 header {text-align: center;}
 #options {}
-#paper {background-color: #ffffff; border-style: solid; border-width: 2px; padding: 5px; font-size: 12px; font-family: "Times New Roman", Times, serif;}
+#paper {background-color: #ffffff; border-style: solid; border-width: 2px; padding: 5px; font-size: 16px; font-family: "Times New Roman", Times, serif;}
 
 /** Text **/
 #title {text-align: center;}
